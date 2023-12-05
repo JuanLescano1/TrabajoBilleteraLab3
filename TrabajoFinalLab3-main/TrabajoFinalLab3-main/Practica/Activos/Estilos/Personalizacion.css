@@ -1,0 +1,45 @@
+
+body
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 98.3vh;
+  flex-grow: 1;
+  background-image: url("imagenes/FondoInicioSesion.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#ingresoDeUsuario
+{
+    display: flex;
+    flex-direction: column;
+    border-style:groove;
+    border-radius: 10px;
+    border-color:black;
+    min-width: 300px;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+    background-image: url("imagenes/FondoInicioSesion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#ingresoDeUsuario button
+{
+  border-radius: 10px;
+  border-color:rgb(44, 23, 102);
+  width: 100px;
+  font-size: 15px;
+  
+}
+#ingresoDeUsuario #id
+{
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border-style:inset;
+  border-color:rgb(44, 23, 102);
+}
+
